@@ -11,6 +11,7 @@ Step1: First, download this project:
 
     $ git clone https://github.com/DilipSingh13/Blockchain_Ethereum.git
 
+
 Step2: Open Remix * https://remix.ethereum.org/ * on browser
 
     1. Copy and paste the code from ERC20_dilip.sol provided in GitHub repository (To creates contract)
@@ -27,6 +28,7 @@ Step2: Open Remix * https://remix.ethereum.org/ * on browser
 
         $npm install (Install all the required dependencies from package.json and package-lock.json)
         
+
 2. Change the following things in method.js and contract.js file 
     a. Addresses
     b. Private key
@@ -38,10 +40,12 @@ Step2: Open Remix * https://remix.ethereum.org/ * on browser
         Infura ropsten URL with your Infura procject with endpoint Ropsten
         Contract Addresss with your deployed Remix code contract address
 
+
 3. Now to start transferring token using:
 
         $node method.js
         
+
 4. To transfer token with rest api by running halndler.js
 
         $node handler.js
