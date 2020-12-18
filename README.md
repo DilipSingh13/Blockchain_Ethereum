@@ -19,7 +19,7 @@ Step2: Open Remix * https://remix.ethereum.org/ * on browser
     4. In MetaMask select network as 'Ropsten Test Network'
     5. Now, Deploy it on Ropsten testnet by selecting environment as "Ijected Web3" and selct the contract as "ERC20" and clcik deploy button
     6. Once contract is deployed you will see a link in terminal click on the link to view deployed contract.
-    7. Now, click on intract with (to) address to publish your contract (To verify your contract does not have any malicious code)
+    7. Now, click on intract with (to) address to publish your contract (To verify that your contract does not have any malicious code)
 
 ## Node.js Code pre-requisite
 
