@@ -66,3 +66,14 @@ Step2: Open Remix * https://remix.ethereum.org/ * on browser
 
 Note: --name <folder_name> should be in lower case
 
+## Debugging port unavailable error
+There might be possibilty of port unavailable due to exisiting ystem process running on port 8080.
+To stop the exisiting port 8080 process, Steps are below:
+
+    1. Stop the docker
+       $docker stop $(docker ps -a -q)
+    2. Check current running process
+       $sudo lsof -i tcp:49160
+    3. Kill the exisiting running process
+       $sudo kill -9 71
+
